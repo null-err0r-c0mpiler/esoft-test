@@ -1,0 +1,42 @@
+.house {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    width: fit-content;
+    align-items: center;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 200px solid rgb(133, 36, 35);
+}
+
+.chimney {
+    position: absolute;
+    background-color: darkgrey;
+    height: 100px;
+    width: 50px;
+    align-self: baseline;
+    margin: 50px 50px;
+    z-index: -1;
+}
+
+.fundament {
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.window {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
